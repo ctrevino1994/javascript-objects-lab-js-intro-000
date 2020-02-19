@@ -9,7 +9,7 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
 
 function deleteFromObjectByKey(object, key) {
   return delete object.prop
-
+  return object;
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {

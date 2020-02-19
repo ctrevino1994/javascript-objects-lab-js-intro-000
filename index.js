@@ -8,8 +8,8 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
 }
 
 function deleteFromObjectByKey(object, key) {
-  delete newObj.prop
-  return ;
+  delete object.prop
+  return object;
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
